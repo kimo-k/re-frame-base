@@ -1,5 +1,5 @@
 {:paths ["src" "test"]
- :deps {reagent/reagent {:mvn/version "1.1.1"}
+ :deps {reagent/reagent {:mvn/version "1.2.0"}
         re-frame/re-frame {:mvn/version "1.4.2"}
         binaryage/devtools {:mvn/version "1.0.6"}
         thheller/shadow-cljs {:mvn/version "2.26.2"}}}
