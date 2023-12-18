@@ -2,4 +2,7 @@
  :deps {reagent/reagent {:mvn/version "1.2.0"}
         re-frame/re-frame {:mvn/version "1.4.2"}
         binaryage/devtools {:mvn/version "1.0.6"}
-        thheller/shadow-cljs {:mvn/version "2.26.2"}}}
+        thheller/shadow-cljs {:mvn/version "2.26.2"}
+        roman01la/cljs-react-devtools
+        {:git/url "https://github.com/roman01la/cljs-react-devtools/"
+         :git/sha "7a7d32cee8c2e4ebb9fe26452b0a5329e442262f"}}}

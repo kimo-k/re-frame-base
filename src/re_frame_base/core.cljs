@@ -5,8 +5,7 @@
    [re-frame-base.events :as events]
    [re-frame-base.views :as views]
    [re-frame-base.config :as config]
-   ))
-
+   [cljs-react-devtools.core :as devtools]))
 
 (defn dev-setup []
   (when config/debug?
@@ -21,4 +20,7 @@
 (defn init []
   (re-frame/dispatch-sync [::events/initialize-db])
   (dev-setup)
-  (mount-root))
+  (mount-root)
+  (devtools/init!
+   {:root (js/document.getElementById "app")
+    :shortcut "Control-Shift-Meta-R"}))
