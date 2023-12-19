@@ -5,4 +5,4 @@
         thheller/shadow-cljs {:mvn/version "2.26.2"}
         roman01la/cljs-react-devtools
         {:git/url "https://github.com/roman01la/cljs-react-devtools/"
-         :git/sha "30ce4bba87e2768ab159249566e8a56d44badbc9"}}}
+         :git/sha "2351006978e2747d6277722d435155c48faf1ba8"}}}
